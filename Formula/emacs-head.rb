@@ -14,6 +14,8 @@ class EmacsHead < Formula
     sha256 "514626098894254ce009b6b1f9a90bdb6679a3e3a005b6bdd5c36d610cae4583" => :mojave
     sha256 "a31d1c6acb0e5eab9253acd5455320d9640dd10d42705fbee0ab7f3ae83a9ab5" => :catalina
   end
+  
+  head "https://github.com/emacs-mirror/emacs.git", :revision => "a13d1f953980b516470d03ab23250760c581c05b"
 
   head do
     url "https://github.com/emacs-mirror/emacs.git"
